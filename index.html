@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="rus">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Document</title>
+    </head>
+    <body>
+       <div class="main_container">
+        <div class="header">Калькулятор варки яиц</div>
+        <div class="container">
+            <button class="eggTypeButton-active" id="eggType1">Всмятку</button>
+            <button class="eggTypeButton" id="eggType2">В мешочек</button>
+            <button class="eggTypeButton" id="eggType3">Вкрутую</button>
+        </div>
+        <div class="container1">
+            <div class="category_bloc">
+                <button class="eggCategoryButton CB active" id="eggCategory1">CB</button>
+                <button class="eggCategoryButton C0" id="eggCategory2">C0</button>
+                <button class="eggCategoryButton C1" id="eggCategory3">C1</button>
+                <button class="eggCategoryButton C2" id="eggCategory4">C2</button>
+                <button class="eggCategoryButton C3" id="eggCategory5">C3</button>
+            </div>
+            <div class="container2" id="eggSvg">
+                <img src="0.png" alt="" id="eggpic" width="300" height="300">
+            </div>
+            <div class="container3">
+                <div class="place fridge">Из холодильника</div>
+                <div class="switched">
+                    <input type="checkbox" id="switch"/>
+                    <label for="switch"></label>
+                </div>
+                <div class="place room">Комнатной температуры</div>
+            </div>
+        </div>
+        <div class="timerbloc">
+            <div class="timer" id="timer">00:00</div>
+        </div>
+       </div>
+        
+
+        <script src="main.js"></script>
+    </body>
+</html>
